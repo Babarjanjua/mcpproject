@@ -1,0 +1,26 @@
+{
+    "mcpServers": {
+      "playwright": {
+        "command": "npx",
+        "args": [
+            "@playwright/mcp@latest"
+        ]
+      },
+      "mooc": {
+        "command": "python",
+        "args": ["mcp_servers/mooc_server/main.py"]
+      },
+      "translation": {
+        "command": "python",
+        "args": ["mcp_servers/translation_server/main.py"]
+      },
+      "classroom": {
+        "command": "python",
+        "args": ["mcp_servers/classroom_server/main.py"]
+      },
+      "analytics": {
+        "command": "python",
+        "args": ["mcp_servers/analytics_server/main.py"]
+      }
+    }
+}

@@ -1,0 +1,23 @@
+# Required API Keys
+OPENAI_API_KEY=your_openai_api_key_here
+
+# Database Configuration (Optional - uses SQLite by default)
+DATABASE_URL=sqlite:///./learning_path_generator.db
+
+# Application Settings
+ENVIRONMENT=production
+DEBUG=False
+LOG_LEVEL=INFO
+
+# URLs (Update after deployment)
+FRONTEND_URL=https://your-streamlit-app.streamlit.app
+BACKEND_URL=https://your-vercel-app.vercel.app
+
+# Optional: Google Classroom (for future enhancement)
+# GOOGLE_CLIENT_ID=your_google_client_id
+# GOOGLE_CLIENT_SECRET=your_google_client_secret
+# GOOGLE_REDIRECT_URI=https://your-vercel-app.vercel.app/auth/callback
+
+# MCP Server Configuration
+MCP_SERVER_TIMEOUT=30
+MCP_MAX_RETRIES=3 
